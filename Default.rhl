@@ -1,0 +1,30 @@
+    ## use '##' to create comments after data rows; def means default
+
+3       ## planet number
+2       ## thermal id - 1: linear, 2: erf
+def     ## surface temp
+def     ## surface temp gradient
+def     ## adiabatic temp
+3       ## deformation style (compression, extension, strike-slip)
+2e-15   ## strain rate
+
+#xx
+2       ## rock id: quartz
+10000   ## thickness (m)
+1,-1,-2   ##[iduct, -ibrit]
+p       ## pore pressure: hydrostatic
+0  0.001 ## no piezometer, grain size 1 mm
+
+#xx
+4       ## rock id: feldspar
+20000   ## thickness (m)
+2,7,-1,-2,-5 ##[iduct, -ibrit]
+p       ## pore pressure: hydrostatic
+0  0.01  ## no piezometer, grain size 1 cm
+
+#xx 
+1	## rock id: olivine
+40000   ## thickness (m)
+1,3,5,-1,-2,-5 ##[iduct, -ibrit]
+0.2 ## pore pressure: labda = 0.2
+1 0  ## piezometer # 1 

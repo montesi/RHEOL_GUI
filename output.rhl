@@ -1,0 +1,30 @@
+## rheology script - 07-Aug-2018 14:59:50
+
+3 			## planet number
+2 			## thermal id - 1: linear, 2: erf
+14.850  		## surface temp
+20.000  		## temp gradient
+1350.000  		## adiabatic temp
+3  			## deformation type
+2.000000e-15  		## strain rate
+
+#xx 
+2   		 ## rock id
+10000 		##  thickness
+1 -1 -2 	## [iduct,-ibrit]
+p 			## pore pressure
+0 	1.000000e-03 	## [0, grain size]
+
+#xx 
+4   		 ## rock id
+20000 		##  thickness
+2 7 -1 -2 -5 	## [iduct,-ibrit]
+p 			## pore pressure
+0 	1.000000e-02 	## [0, grain size]
+
+#xx 
+1   		 ## rock id
+40000 		##  thickness
+1 3 5 -1 -2 -5 	## [iduct,-ibrit]
+0.2 			## pore pressure
+1 	0 		## [grain code, 0]
