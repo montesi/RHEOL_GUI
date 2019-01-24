@@ -22,7 +22,7 @@ function varargout = RHEOL_GUI(varargin)
 
 % Edit the above text to modify the response to help RHEOL_GUI
 
-% Last Modified by GUIDE v2.5 07-Aug-2018 15:02:45
+% Last Modified by GUIDE v2.5 23-Jan-2019 16:09:42
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1026,4 +1026,3 @@ newhandles = handles;
 %
 %
 % %             calc_strength; plot_strength_integrate;
-
