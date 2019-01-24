@@ -43,8 +43,29 @@ case 5 %saturation at 300 MPa
     mu=0.0;
     %convert for invariants
     Ci=C/sqrt(1+mu^2);
+    fi=mu/sqrt(1+mu^2); 
+case 6 %saturation at 100 MPa
+    tag="100MPa";
+    C=100e6;
+    mu=0.0;
+    %convert for invariants
+    Ci=C/sqrt(1+mu^2);
+    fi=mu/sqrt(1+mu^2); 
+case 7 %saturation at 30 MPa
+    tag="30MPa";
+    C=30e6;
+    mu=0.0;
+    %convert for invariants
+    Ci=C/sqrt(1+mu^2);
     fi=mu/sqrt(1+mu^2);
-case 6 %Ice friction
+case 8 %saturation at 10 MPa
+    tag="10MPa";
+    C=10e6;
+    mu=0.0;
+    %convert for invariants
+    Ci=C/sqrt(1+mu^2);
+    fi=mu/sqrt(1+mu^2);
+case 9 %Ice friction
     tag="Icefriction";
     C=8.3e6;
     mu=0.2;
